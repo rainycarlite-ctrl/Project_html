@@ -14,13 +14,17 @@ _xG-scqyT6W5V3vpbBd9Myr3_2ul0gDhNY-9HigSu80tPJL3yVFoZwl2p3_sH-lJi7JwlmT2sCVoLDjS
 <body>
   <header class="hero">
     <div class="hero-grid">
-      <div class="hero-content">
+      <div class="hero-content ">
+          <button id="themeBtn" class="btn">Toggle Theme</button>
         <div class="hero-photo">
           <img src="images/profile.jpg" alt="Profile photo of Rinavil M. Carlite">
         </div>
         <h2>Hello, I'm <span>Rinavil M. Carlite</span></h2>
-        <p>Student Web Developer</p>
+        <p id="typing"></p>
         <a href="#projects" class="btn">View My Projects</a>
+        <a href="files/Rinavil-Carlite-Resume.pdf" download class="btn">
+            Download Resume
+          </a>
       </div>
 
       <aside class="hero-sidebar">
@@ -49,6 +53,14 @@ _xG-scqyT6W5V3vpbBd9Myr3_2ul0gDhNY-9HigSu80tPJL3yVFoZwl2p3_sH-lJi7JwlmT2sCVoLDjS
   <section id="hobbies" class="section hobbies-section">
     <h2>Hobbies</h2>
     <div class="cards">
+        <div class="project-card">
+            <h3>Website Portfolio</h3>
+            <p>A personal website to present my skills, achievements, and projects.</p>
+          
+            <button class="view-project">
+              View Details
+            </button>
+          </div>
       <div class="card">Anime Enthusiast</div>
       <div class="card">Sewing</div>
       <div class="card">Singing</div>
@@ -59,10 +71,36 @@ _xG-scqyT6W5V3vpbBd9Myr3_2ul0gDhNY-9HigSu80tPJL3yVFoZwl2p3_sH-lJi7JwlmT2sCVoLDjS
   <section id="skills" class="section alt">
     <h2>Special Skills</h2>
     <div class="cards">
-      <div class="card">Active Listener</div>
-      <div class="card">Public Speacking</div>
-      <div class="card">Meeting Deadlines</div>
-      <div class="card">Makeup Artist</div>
+        <div class="project-card">
+            <h3>Website Portfolio</h3>
+            <p>A personal website to present my skills, achievements, and projects.</p>
+          
+            <button class="view-project">
+              View Details
+            </button>
+          </div>
+
+            <div class="card">
+              <p>HTML</p>
+              <progress value="90" max="100"></progress>
+            </div>
+          
+            <div class="card">
+              <p>CSS</p>
+              <progress value="85" max="100"></progress>
+            </div>
+          
+            <div class="card">
+              <p>JavaScript</p>
+              <progress value="75" max="100"></progress>
+            </div>
+          
+            <div class="card">
+              <p>Communication</p>
+              <progress value="95" max="100"></progress>
+            </div>
+          
+          </div>
     
      
     </div>
@@ -71,6 +109,14 @@ _xG-scqyT6W5V3vpbBd9Myr3_2ul0gDhNY-9HigSu80tPJL3yVFoZwl2p3_sH-lJi7JwlmT2sCVoLDjS
   <section id="projects" class="section">
     <h2>Projects</h2>
     <div class="cards">
+        <div class="project-card">
+            <h3>Website Portfolio</h3>
+            <p>A personal website to present my skills, achievements, and projects.</p>
+          
+            <button class="view-project">
+              View Details
+            </button>
+          </div>
       <div class="project-card">
         <h3>Siargao Travel App</h3>
         <p>A tourism mobile app design showcasing destinations and booking features.</p>
@@ -106,12 +152,13 @@ _xG-scqyT6W5V3vpbBd9Myr3_2ul0gDhNY-9HigSu80tPJL3yVFoZwl2p3_sH-lJi7JwlmT2sCVoLDjS
         <textarea id="message" name="message" class="contact-textarea" rows="5" placeholder="Write your message here" required></textarea>
 
         <button type="submit" class="contact-submit">Send Message</button>
-      </form>
+     </form>
     </div>
   </section>
-
+        <p id="visitor-count"></p>
   <footer>
     <p>&copy; 2026 carliterain. All Rights Reserved.</p>
+    <p id="visitor-count"></p>
   </footer>
   <script src="script.js"></script>
 </body>
