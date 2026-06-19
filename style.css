@@ -402,7 +402,6 @@ footer {
     text-align: center;
   }
 }
-
 progress {
   width: 100%;
   height: 20px;
@@ -482,4 +481,10 @@ progress {
 
 .light-mode .nav-links a {
   color: #111;
+}
+.project-image {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
